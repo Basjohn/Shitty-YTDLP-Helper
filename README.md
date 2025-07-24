@@ -7,9 +7,15 @@ A very basic but pretty gui for YTDLP which comes with it and FFMPEG bundled. Ha
 
 Literally just making it piss easy to use YTDLP because good programmers are allergic to GUIs and bad ones like me thrive on them.
 
-<img width="230" height="580" alt="image" src="https://github.com/user-attachments/assets/709c311b-d456-4a7a-b72f-5f2e7bcf74b5" />   
 
+<img width="230" height="580" alt="image" src="https://github.com/user-attachments/assets/8c693225-a121-4de5-94e6-d105b157c86b" />  
 
+I did give in and add some QoL.
+
+Files are saved to relative /downloads now.
+Autoclosing options for your terminal/cmd.
+Functional Snapping.
+Double-Click Piggo to open downloads for you, right click anywhere to exit.
 ## Requirements
 
 Just run the exe if not building it.
