@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Shitty YT-DLP Helper
+Comment=A basic GUI for yt-dlp with FFmpeg integration
+Exec=python3 /path/to/shitty_ytdlphelper.py
+Icon=/path/to/SYHS.png
+Terminal=false
+Categories=AudioVideo;Video;Network;
+Keywords=video;audio;downloader;youtube;yt-dlp;ffmpeg;
+StartupWMClass=ShittyYTDLPHelper
