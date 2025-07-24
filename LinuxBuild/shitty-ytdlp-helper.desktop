@@ -1,10 +1,16 @@
 [Desktop Entry]
+Version=1.0
 Type=Application
-Name=Shitty YT-DLP Helper
-Comment=A basic GUI for yt-dlp with FFmpeg integration
-Exec=python3 /path/to/shitty_ytdlphelper.py
-Icon=/path/to/SYHS.png
+Name=Shitty YTDLP Helper
+GenericName=YouTube Video Downloader
+Comment=Download videos and audio from YouTube and other sites
+Exec=ShittyYTDLPHelper %U
+Icon=SYHSB
 Terminal=false
+StartupNotify=true
 Categories=AudioVideo;Video;Network;
 Keywords=video;audio;downloader;youtube;yt-dlp;ffmpeg;
 StartupWMClass=ShittyYTDLPHelper
+MimeType=text/uri-list;application/x-mswf;
+X-AppImage-Version=1.0.0
+X-AppImage-Name=Shitty YTDLP Helper

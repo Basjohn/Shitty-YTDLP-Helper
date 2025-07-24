@@ -16,7 +16,21 @@ def build():
     # PyInstaller configuration
     app_name = 'ShittyYTDLPHelper'
     script = 'shitty_ytdlphelper.py'
-    icon = 'SYHS.ico'
+    
+    # Path to resources
+    rc_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'rc')
+    icon = os.path.join(rc_dir, 'SYHSB.ico')
+    png_icon = os.path.join(rc_dir, 'SYHSB.png')
+    
+    # Ensure rc directory exists
+    if not os.path.exists(rc_dir):
+        os.makedirs(rc_dir, exist_ok=True)
+    
+    # Check for required files
+    required_files = [icon, png_icon]
+    for file in required_files:
+        if not os.path.exists(file):
+            raise FileNotFound(f"Required file not found: {file}")
     
     # PyInstaller arguments
     args = [
@@ -24,11 +38,17 @@ def build():
         '--name=%s' % app_name,
         '--onefile',
         '--windowed',
-        '--icon=%s' % icon,
-        '--add-data=SYHS.ico;.',
+        f'--icon={icon}',
+        # Include all necessary files in the rc directory
+        f'--add-data={icon};rc',
+        f'--add-data={png_icon};rc',
+        # Include yt-dlp if it exists
+        '--add-binary=yt-dlp.exe;.',
         '--noconsole',
         '--clean',
-        '--log-level=INFO'
+        '--log-level=INFO',
+        # Ensure the rc directory is included in the binary
+        '--add-data=rc;rc'
     ]
     
     # Run PyInstaller
