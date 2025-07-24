@@ -6,11 +6,13 @@ A very basic but pretty gui for YTDLP which comes with it and FFMPEG bundled. Ha
 
 
 Literally just making it piss easy to use YTDLP because good programmers are allergic to GUIs and bad ones like me thrive on them.
+<img width="330" height="401" alt="{14B3563D-243A-4515-B0AC-C59FADF87C41}" src="https://github.com/user-attachments/assets/e2ffe2b0-3d02-45a0-8b7a-edf8f65f7d14" />
 
 ## Requirements
 
 Just run the exe if not building it.
 
+If building (say you're on linux) it should update yt-dlp for you.
 - Python 3.8+
 - PySide6
 - yt-dlp (will be installed automatically)
@@ -26,7 +28,7 @@ This frontend is so basic I doubt it will ever break if it ever works in the fir
 
 ## Usage
 
-1. Run the application
+1. Run the shitty exe application
 2. Enter a video URL in the input field
 3. Select your preferred options:
    - **Best Quality**: Download the highest available quality
