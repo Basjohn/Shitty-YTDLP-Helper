@@ -7,8 +7,8 @@ A very basic but pretty gui for YTDLP which comes with it and FFMPEG bundled. Ha
 
 Literally just making it piss easy to use YTDLP because good programmers are allergic to GUIs and bad ones like me thrive on them.
 
+<img width="230" height="580" alt="image" src="https://github.com/user-attachments/assets/709c311b-d456-4a7a-b72f-5f2e7bcf74b5" />   
 
-<img width="330" height="401" alt="{14B3563D-243A-4515-B0AC-C59FADF87C41}" src="https://github.com/user-attachments/assets/e2ffe2b0-3d02-45a0-8b7a-edf8f65f7d14" />
 
 ## Requirements
 
