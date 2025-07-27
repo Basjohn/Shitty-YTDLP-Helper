@@ -37,6 +37,7 @@ This frontend is so basic I doubt it will ever break if it ever works in the fir
 ## Usage
 
 1. Run the shitty exe application
+1b. If you see the update button (bottom right) light up, do click it. 
 2. Enter a video URL in the input field
 3. Select your preferred options:
    - **Best Quality**: Download the highest available quality
