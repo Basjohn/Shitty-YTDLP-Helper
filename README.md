@@ -1,6 +1,6 @@
 # Shitty YTDLP Helper
 
-A very basic but pretty gui for YTDLP which comes with it and FFMPEG bundled. Has customization for quality, audio only, mp4 output, pretty naming, subtitle embedding, and ffmpeg integration. Built to save you time.
+A very basic but pretty gui for YTDLP which comes with it and FFMPEG bundled. Has customization for quality, audio only, mp4 output, pretty naming, subtitle embedding, and ffmpeg integration. Along with a quick update feature to ensure compatibility. Built to save you time.
 
 ## Features
 
