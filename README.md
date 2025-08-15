@@ -16,6 +16,7 @@ Files are saved to relative /downloads now.
 Autoclosing options for your terminal/cmd.
 Functional Snapping.
 Double-Click Piggo to open downloads for you, right click anywhere to exit.
+Also somehow it WORKS FOR FREAKING PLAYLISTS/Bundled URLs. Slam the single link in there and pray you have the storage space.
 ## Requirements
 
 Just run the exe if not building it.
