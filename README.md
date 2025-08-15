@@ -46,19 +46,20 @@ This frontend is so basic I doubt it will ever break if it ever works in the fir
 ## Usage
 
 1. Run the shitty exe application
-1b. If you see the update button (bottom right) light up, do click it. 
-2. Enter a video URL in the input field
-3. Select your preferred options:
+ 2. If you see the update button (bottom right) light up, do click it. 
+3. Enter a video URL in the input field
+4. Select your preferred options:
    - **Best Quality**: Download the highest available quality
    - **MP4 Output**: Convert the output to MP4 format
    - **Pretty Naming**: Use human-readable filenames
    - **Audio Only**: Download audio only
    - **Embed Subtitles**: Include subtitles in the output file
    - **Use FFmpeg**: Use FFmpeg for additional format support (If you turn this off glhf)
-4. Click "GET 'EM" to start the download
+5. Click "GET 'EM" to start the download
 
 ## Notes
 
+- Best Quality seperately downloads the highest quality video and audio streams before combining them in suspiciously perfect sync.
 - The application requires an internet connection to download videos
 - Some video platforms may have restrictions on downloading content
 
