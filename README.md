@@ -12,11 +12,16 @@ Literally just making it piss easy to use YTDLP because good programmers are all
 
 I did give in and add some QoL.
 
-Files are saved to relative /downloads now.
-Autoclosing options for your terminal/cmd.
-Functional Snapping.
-Double-Click Piggo to open downloads for you, right click anywhere to exit.
-Also somehow it WORKS FOR FREAKING PLAYLISTS/Bundled URLs. Slam the single link in there and pray you have the storage space.
+-Files are saved to relative /downloads now.
+
+-Autoclosing options for your terminal/cmd.
+
+-Functional Snapping.
+
+-Double-Click Piggo to open downloads for you, right click anywhere to exit.
+
+-Also somehow it WORKS FOR FREAKING PLAYLISTS/Bundled URLs despite my dumbass not knowing how. Slam the single link in there and pray you have the storage space.
+
 ## Requirements
 
 Just run the exe if not building it.
@@ -25,7 +30,8 @@ If building (say you're on linux) it should update yt-dlp for you.
 - Python 3.8+
 - PySide6
 - yt-dlp (will be installed automatically)
-- FFmpeg (optional, for additional format support)
+- FFmpeg (optional, for additional format support, this is the only thing you have to get yourself you Unix warrior you)
+  
 
 ## Updating
 
