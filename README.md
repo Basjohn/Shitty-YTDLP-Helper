@@ -28,7 +28,9 @@ If building (say you're on linux) it should update yt-dlp for you.
 
 ## Updating
 
-YTDLP updates all the time, for reasons. Just plop the newer version in the same folder. It'll work and if it doesn't I'll gaslight you until you agree it does.
+YTDLP updates all the time, for reasons. There is an built in updater button that will light up and get the latest version and even place it for you. 
+OR
+Just plop the newer version in the same folder. It'll work and if it doesn't I'll gaslight you until you agree it does.
 
 You can also update FFMPEG and drop its exe in here as well. 
 
